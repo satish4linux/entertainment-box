@@ -70,7 +70,7 @@ function generateUrl(header,item) {
 }
 
 function addListItemHover() {
-	var css = 'ul li:hover { text-shadow: 0 0 1px #0FFFFF;}';
+	var css = 'ol li:hover { text-shadow: 0 0 1px #0FFFFF;}';
 	var style = document.createElement('style');
 	if (style.styleSheet) {
 	    style.styleSheet.cssText = css;
